@@ -1,2 +1,2 @@
 # microkernel-python
-Repository template for a microkernel architecture for a Python application
+Repository template for Python application using microkernel architecture 
