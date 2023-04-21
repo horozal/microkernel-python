@@ -1,2 +1,2 @@
 # microkernel-python
-Project template for a Python application using microkernel architecture 
+Template for a Python project using microkernel architecture 
