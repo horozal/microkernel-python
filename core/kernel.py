@@ -1,7 +1,8 @@
-class Microkernel:
+class Kernel:
     def __init__(self):
         pass 
     
-kernel = Microkernel
+    def print_hello(self):
+        print('Hello, Kernel!')
 
-print(kernel)
+kernel = Kernel()

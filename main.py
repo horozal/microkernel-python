@@ -1,5 +1,13 @@
-from core.kernel import Microkernel
-from core.plugins.plugin import Plugin
+from core.kernel import Kernel
+from plugins.plugin import Plugin
+
 
 def main():
-    print('Hello world!')
+    kernel = Kernel()
+    kernel.print_hello()
+
+    plugin = Plugin()
+    plugin.print_hello()
+
+if __name__ == "__main__":
+    main()
